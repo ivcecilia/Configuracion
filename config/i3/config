@@ -9,7 +9,7 @@ font pango:Ionicons 9, Poppins Regular 9
 floating_modifier $super
 
 # autostart
-exec --no-startup-id hsetroot -center ~/.wallpaper.png
+exec_always --no-startup-id sh -c "feh --bg-fill ~/Pictures/wallpapers/fondo.jpg"
 
 # start a terminal
 bindsym $super+Return exec i3-sensible-terminal
